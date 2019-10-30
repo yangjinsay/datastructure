@@ -34,12 +34,9 @@ func main(){
 }
 
 func inorderTraversal(root *TreeNode) []int {
-	result := []int{}
-	func inorderTree(root *TreeNode){
-		inorderTree(root.Left)
-		result = append(result, root.Val)
-		inorderTree(root.Right)
+	if root == nil {
+		return []int{}
 	}
-	inorderTree(root)
-	return result
+	result := append(inorderTraversal(root.Left),root.Val)
+	return append(result, inorderTraversal(root.Right)...)
 }
