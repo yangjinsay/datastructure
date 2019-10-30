@@ -1,32 +1,30 @@
 ## 杨  进
-**电话 ：** 188-9206-0332  
-**邮箱：** yangjin94@163.com  
-**期望工作地：** 西安
+**电话 :** 188-9206-0332 / **邮箱:** yangjin94@163.com  / **期望工作地:** 西安 / **应聘岗位:** 开发工程师
 ### 个人信息
 ---  
-**民族：** 汉 **籍贯：** 陕西 安康  **性别：** 男 **年龄：** 25岁  **政治面貌：** 中共党员  
+**民族：** 汉 &emsp; **籍贯：** 陕西 安康&emsp;  **性别：** 男 &emsp;**年龄：** 25岁 &emsp; **政治面貌：** 中共党员  
 ### 教育经历
 ---
-2013年9月  --- 2017年7月  宝鸡文理学院  机械设计制作及其自动化  本科
+2013年9月  --- 2017年7月  &emsp; 宝鸡文理学院  &emsp;机械设计制作及其自动化  &emsp;本科
 ### 工作经历
 ---
- > 2017.3至2018.2&nbsp;&nbsp;&nbsp;&nbsp;NEC-AS西安 IRS Team&nbsp;&nbsp;&nbsp;&nbsp;开发工程师
-#### 用户评论分析系统
+#### 2017.3至2018.2 &emsp; NEC-AS西安 IRS Team &emsp; 开发工程师
+> 用户评论分析系统
 * 从电商网站爬取数据，并存储到HDFS中
   * 对抓取的评论进行流式处理
   * 清洗
   * 语义分析
   * 聚类
   * 情感分析
-####  数据处理
+>  数据处理
 * 对甲方提供的数据进行数据清洗，最终给到机器学习平台进行学习，最终得到学习结果  
->  2018.2至今&nbsp;&nbsp;&nbsp;&nbsp;NEC-AS JobCenter Scrum Team&nbsp;&nbsp;&nbsp;&nbsp;开发工程师
-#### JobCenter 15.3 (MGUNIX/CLWEB)云平台对应；
+####  2018.2至今 &emsp; NEC-AS JobCenter Scrum Team &emsp; 开发工程师
+> JobCenter 15.3 (MGUNIX/CLWEB)云平台对应；
 *  Dockerfile做成
 * JobCenter在Docker及Kubernetes平台移植后的问题对应
 * 保守性对应
 
-#### JobCenter 15.4 Operrator开发
+> JobCenter 15.4 Operrator开发
   * 定义Kubernetes CRD，实现Operator对JobCenter Autopilot
   * 一键部署
   * 数据持久化
