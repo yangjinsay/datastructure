@@ -7,5 +7,5 @@
  * }
  */
 func isSameTree(p *TreeNode, q *TreeNode) bool {
-	if (p == 
+	return false
 }
