@@ -1,4 +1,4 @@
-pacakge main
+package main
 
 /**
  * Definition for singly-linked list.
