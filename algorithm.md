@@ -95,5 +95,15 @@ def DFS(self, tree):
     # other processing work
     ...
 ```
+* 深度搜索和广度搜索 102
+----
 ### 剪枝
 * N-queens
+
+### 二分查找 69
+* Sorted(单调递增或者递减)
+* Bounded (存在上下界)
+* 能够通过索引访问
+
+### Tire
+

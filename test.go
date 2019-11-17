@@ -3,6 +3,5 @@ package main
 import "fmt"
 
 func main(){
-	str := "acgdd"
-	fmt.Println(str[0:5])
+	fmt.Println(0.1 < 1e-5)
 }
