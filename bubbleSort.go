@@ -12,15 +12,15 @@ func main() {
 }
 
 func bubbleSort(list []int) []int {
-	l := len(list)
-	if l <= 1 {
+	le := len(list)
+	if le <= 1 {
 		return list
 	}
 
-	for i := 0; i < l; i++ {
-		for j := 1 + i ; j < l-i ; j++ {
-			if list[j] < list[i] {
-				list[j], list[i] = list[i], list[j]
+	for i:=0;i<le;i++{
+		for j:= i+1; j< le;j++{
+			if list[j] < list[i]{
+				list[i], list[j] = list[j], list[i]
 			}
 		}
 	}
